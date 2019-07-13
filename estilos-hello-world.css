@@ -87,7 +87,7 @@ section
 }
 .busca input
 {
-    background-image: url("./search.png");
+    background-image: url("./img/search.png");
     background-repeat: no-repeat;
     height: 40px;
     width: 190px;
@@ -104,4 +104,31 @@ section
 .slider-principal
 {
     overflow-x: hidden;
+}
+button.slick-prev
+{
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 64px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(./img/seta-para-esquerda.png);
+    top: 35%;
+    left: 14%;
+}
+button.slick-next
+{
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 64px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(./img/seta-para-direita.png);
+    top: 35%;
+    right: 14%;
+    
 }
