@@ -97,7 +97,8 @@ section
 }
 .col100
 {
-    width: 100%;
+    margin-left: 500px;
+    width: 70%;
     float: left;
     position: relative;
 }
