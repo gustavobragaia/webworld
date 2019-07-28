@@ -15,10 +15,10 @@ ul
     width: 100vw;
     height: 80px;
 }
-main
+main, .content
 { 
     margin: 0 auto;
-    width: 960px;
+    width: 980px;
     position: relative;
 }
 
@@ -137,7 +137,7 @@ margin: 0 auto;
 width: 50%;
 position: absolute;
 margin-left: 50%;
-top: 95%;
+top: 90%;
 }
 ul.slick-dots li 
 {
